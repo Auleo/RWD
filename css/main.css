@@ -72,7 +72,55 @@ section{
     width:auto;
     padding-bottom:0%;
 }
+#about{
+    
+.top-logo{
+    padding:2% 11%;
+    font-size: 36px;
+}
+.person {
+    display: flex;
+    align-items: center;
+    padding: 2% 7%;
+    margin-left: 6%;
+}
+.person-img{ 
+    flex-shrink:0;
+    width:220px;
+    height:220px;
+    background:url('https://picsum.photos/340') no-repeat center center;
+    background-position: center;
+    background-size:cover;
+    border-radius:50%;
+}
+.name-experts{
+    padding: 0 3%;
+}
+.name-experts::before{
+}
+         
+.lorem{
+    width: 98%;
+    padding: 0 0%;
+    height: auto;
+}
+.person:nth-of-type(even){
+    flex-direction: row-reverse; 
+    padding-right: 5%;      
+}
+.person:nth-of-type(odd) .info-person{
+    margin-left:8px;
+    margin-top: 10%;   
+}
+.person:nth-of-type(odd) .info-person{
+    margin-top:30px;
+}
+.person:nth-of-type(odd) .info-person{
+    margin-right: 4px; 
+}
+}
 .products{
+    width:100vw;
     background:#405D78;
 }
 .prodact-container{
@@ -80,6 +128,7 @@ section{
     justify-content: space-between;
     flex-wrap:wrap;
     margin-top:5%;
+    padding: 0 5%:
 }
 .product {
     flex:wrap;

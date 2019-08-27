@@ -59,6 +59,7 @@ ng-page-text-h1{
 .product {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: center;
     width: 30%;
     height:200px;

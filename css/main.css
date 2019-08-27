@@ -73,6 +73,10 @@ section{
     padding-bottom:0%;
 }
 #about{
+    width:100vw;
+    padding: 5% 0;
+    
+}
     
 .top-logo{
     padding:2% 11%;
@@ -128,7 +132,7 @@ section{
     justify-content: space-between;
     flex-wrap:wrap;
     margin-top:5%;
-    padding: 0 5%:
+    padding: 0 5%;
 }
 .product {
     flex:wrap;

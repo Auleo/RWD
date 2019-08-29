@@ -23,33 +23,28 @@ a:hover{
     font-size: 18px;
     transition: .04s;
 }    
+
 nav{
-    height:50px;
     display: flex;
-    align-items:center;
     justify-content: space-between;
+    align-items:center;
+    height: 50px;
     background:#4E4E4E;
-    font-size:18px;
 }
 .nav-container{
-    display: flex;
-    height: 50px;
-    text-align:center;
-    justify-content: space-between;
-    font-style: normal;
+   
 }
-.nav-company-name {
+nav-company-name {
     font-size:20px;
     color:white;
     font-weight:bold;
 }
 .container{
     display: flex;
-    align-items:center;
-    justify-content: space-between;
-    background:#4E4E4E;
-    width:960px;
-    margin:0 auto;
+    align-items: center;
+    /* justify-content: space-between; */
+    background: #4E4E4E;
+    width: 960px;
 }
 .landing-page{
     width:100vw;
@@ -75,15 +70,13 @@ nav{
 .secondary-heading{
     font-size:19px;
 }
-#about{
-
+.container #about{
+background: #4E4E4E;
 }
 .wrapper{
     height:100vh;
     margin:0 auto;
-    display: center;
-    display:flex;
-    background:beige;
+  
 }
 button{
     background-color:transparent; 
@@ -120,9 +113,7 @@ button:hover{
     padding: 0 3%;
 }    
 .lorem{
-    width: 98%;
-    padding: 0 auto%;
-    height: auto;
+   
 }
 .person:nth-of-type(even){
     flex-direction: row-reverse; 
@@ -159,8 +150,8 @@ button:hover{
     flex-wrap: wrap;  
     margin-top: 9%;
 }
-.product {    
-    display: flex;
+.product{    
+    display: flex;56
     align-items: center;
     justify-content:center;
     flex-direction: column;

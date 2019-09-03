@@ -76,7 +76,7 @@ a:hover{
     flex-direction:column;
     justify-content:space-between;
     align-items: flex-start;
-    font-style: weight;
+    font-style: weight:
     width:66%;
 }
 .landing-page-text-h1{
@@ -95,6 +95,7 @@ a:hover{
 .landing-page button{
     display:flex;
     flex-direction:column;
+    height:100%;
 }
 button{
     background-color: transparent;
@@ -117,6 +118,8 @@ button:hover{
     text-align:center;
     transform: 0,01s;
 }
+
+
 .name-experts{
     font-weight: bold;
 }
@@ -259,3 +262,5 @@ button:hover{
 
 
 
+
+/*   

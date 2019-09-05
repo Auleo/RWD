@@ -52,7 +52,7 @@ a:hover{
 .wrapper{
     display:center;
     height:auto;
-    width: 77%;
+    width: 70%;
 }
 .landing-page{ 
     display:flex;    
@@ -124,7 +124,7 @@ button:hover{
     font-weight: bold;
 }
 .top-logo{
-    margin:4%;
+    padding-top: 40px;
     width: auto;
     font-size: 36px;
     font-weight: 800;
@@ -134,14 +134,13 @@ button:hover{
 .person {
     display: flex;
     align-items: center;
-    padding: 3% 0%;
-    margin-left:4%;
+    padding:5% 0%;
+    margin-left:0%;
 }
 .person-img{ 
     flex-shrink:0;
     width:200px;
     height:200px;
-    margin-right: 20px;
     background:url('https://picsum.photos/340') no-repeat center center;
     background-position: center;
     background-size:cover;
@@ -155,6 +154,7 @@ button:hover{
     height:0 auto;
 }
 .person:nth-of-type(even) {
+    text-align: right;
     flex-direction: row-reverse;       
 }
 .person:nth-of-type(even) .info-person{
@@ -172,7 +172,7 @@ button:hover{
     justify-content:space-between;
     align-items: center;
     width:100%;
-    height: 100vh;
+    
     margin:0 auto;
     background-color:  #405D78;
 }

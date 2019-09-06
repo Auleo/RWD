@@ -1,29 +1,68 @@
 @media (max-width:768px){
-	.person {
-	width: 60%;
-	height: 25%;
+	.nav {
+		display: flex;
+		padding: 0 9%;
+		justify-content: space-between;
+		align-items: center;
+		height: 50px;
+		margin: 0 auto;
+		color: #fff;
+		background: #4E4E4E;
 	}
-
-	.person {
-    padding-left:8%;
-    flex-direction: column;
+	.landing-page-shedow {
+		padding: 0px 8%;
+		width: 100%;
+		height: 100%;
+	}
+	.landing-page-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-start;
+		font-style: weight;
+		width: 80%;
+		height:31%;
 	}	
+	.top-logo {
+		padding-left: 29%;
+		margin-bottom: 20px;	
+	}
+	.person {
+		width: 85%;
+		height: 25%;
+		padding-left: 8%;
+		flex-direction: column;
+	}
 	.person:nth-of-type(odd) .info-person {
     margin-top: 20px;
-    padding-left: 20px;
+	padding-left: 20px;
+	
 	}
 	.person:nth-of-type(even) .info-person {
 	margin-top: 20px;
 	padding-left: 10px;
 	}
+	.circle{
+    position:absolute;
+    width:20px;
+    background-color:#E07A64;; 
+    height:20px;
+    left:-8px;
+    top:-11px;
+    border-radius:50%;
+    z-index:3;
+}
 	#offer {
-
 	box-shadow: 3px 2px 2px 2px grey;
 	transform: scale(1.00);
 	flex-direction: column;
     grid-template-columns: 45% auto 45%;
     grid-template-rows: 45% auto 45%;
 	grid-gap:2%;
+	}
+	.company-what {
+		padding: 16% 0%;
+		padding-left: 10%;
 	}
 	.container {
 		width: auto;

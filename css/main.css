@@ -199,21 +199,38 @@ button:hover{
     z-index:3;
 }
 .box-container{
+    
     display: flex;
     justify-content: center;
-    flex-direction:row;
-    text-align: center;
-    grid:flex;   
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows:33% 33% 33%;
-    grid-gap:2%
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+  
+   
 }
 .box_second-line{
+    
     width:97vw;
     height:100vh;
     margin-bottom:0px;
 }
 .line{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    width: 22%;
+    height: 188px;
+    margin: 17px;
+    padding: 6px;
+    border: 5px solid grey;
+    background-color: #FFF;
+
+}
+
+
+/* 
+.line{
+    display: grid;
     width: 16%;
     height: 18%;
     margin: 3% 3%;
@@ -233,7 +250,7 @@ button:hover{
     grid-template-columns: 33% 33% 33%;
     grid-template-rows:33% 33% 33%;
     grid-gap:2%;
-}
+} */
 .line:hover {
     opacity:1;
     border-style: solid;
@@ -248,6 +265,7 @@ button:hover{
     grid-gap:1%;
 } 
 .footer{
+    padding:0 8%;
     display:flex;
     align-items: center;
     flex-direction: row;

@@ -159,10 +159,10 @@ button:hover{
     flex-direction: row-reverse;       
 }
 .person:nth-of-type(even) .info-person{
-    margin-left:20px;
+  
 }
 .person:nth-of-type(odd) .person-img{
-    margin-right:20px;
+   
 }
 .person:nth-of-type(odd) .info-person{
     margin-top:8px;
@@ -205,9 +205,8 @@ button:hover{
     width:100%;
 }
 .line{   
-    display: flex;
     width:28%;
-    height: 136px;
+    height:206px;
     margin: 17px;
     padding: 6px;
     border: 5px solid grey;
@@ -239,11 +238,12 @@ button:hover{
     background: #4E4E4E;
     color:#fff;
 }
+
 .rig{
-    -webkit-flex-direction: row; 
-    grid-template-columns: 70% auto 5%;
-    grid-template-rows:70% auto 5%;
-    grid-gap:2%;
+    text-decoration:none;
+    color:none;
+    transition:.2s;
+    scroll-behavior: smooth;
 }
 
 

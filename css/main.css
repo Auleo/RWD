@@ -204,12 +204,16 @@ button:hover{
 .lin{
     width:100%;
 }
-.line{   
+.line{  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
     width:28%;
     height:206px;
     margin: 17px;
     padding: 6px;
     border: 5px solid grey;
+    background-color: #fff;
 }
 
 .line:hover {

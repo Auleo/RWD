@@ -31,6 +31,7 @@ a:hover{
     justify-content:space-between;
     align-items: center;
     height:50px;
+    padding: 0 10%;
     margin:0 auto;
     color:#fff;
     background: #4E4E4E; 
@@ -117,8 +118,6 @@ button:hover{
     text-align:center;
     transform: 0,01s;
 }
-
-
 .name-experts{
     font-weight: bold;
 }
@@ -170,7 +169,7 @@ button:hover{
 }
 
 #offer{
- /* display:flex; */
+    display:flex;
     justify-content:space-between;
     align-items: center;
     width:100%;
@@ -180,7 +179,6 @@ button:hover{
 }
 .company-what{
     padding-top:15%;
-    padding-left:0%;
     font-size: 36px;
     font-weight: 800;
     color: #F1F1F1;
@@ -196,22 +194,20 @@ button:hover{
     z-index:3;
 }
 .box-container{
-    margin-top: 3%;
-    display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    
 }
 .box_second-line{
     width:100vw;
     height:100vh;
     margin-bottom:0px;
 }
-
-.line{
+.lin{
+    width:100%;
+}
+.line{   
     display: flex;
-    width: 22%;
-  /*  height: 188px; */
+    width:28%;
+    height: 136px;
     margin: 17px;
     padding: 6px;
     border: 5px solid grey;
@@ -231,7 +227,6 @@ button:hover{
     grid-gap:1%;
 } 
 .footer{
-    padding: 0 8%;
     display:flex;
     align-items: center;
     flex-direction: row;
@@ -239,6 +234,7 @@ button:hover{
     padding-left:0 10%;
     align-items: center;
     height: 50%;
+    padding:1% 10%;
     width:auto;
     background: #4E4E4E;
     color:#fff;

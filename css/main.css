@@ -26,7 +26,7 @@ a:hover{
     color:black;
     display: inline;    
 }
-.nav {
+.nav{
     display:flex;
     justify-content:space-between;
     align-items: center;
@@ -34,8 +34,7 @@ a:hover{
     padding: 0 10%;
     margin:0 auto;
     color:#fff;
-    background: #4E4E4E; 
-    
+    background: #4E4E4E;     
 }
 .container{
     width: 960px;
@@ -152,7 +151,7 @@ button:hover{
     height:0 auto;
 }
 .info-person{
-    padding: 0 5px;
+    padding: 0 27px;
 }
 .person:nth-of-type(even) {
     text-align: right;
@@ -184,7 +183,7 @@ button:hover{
     color: #F1F1F1;
 } 
 .circle{
-    position:absolute;
+    
     width:20px;
     background-color:#E07A64;; 
     height:20px;
@@ -194,7 +193,11 @@ button:hover{
     z-index:3;
 }
 .box-container{
-    justify-content: center;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-top: 5%;
+
 }
 .box_second-line{
     width:100vw;
@@ -207,11 +210,13 @@ button:hover{
 .line{  
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    flex-direction:column;
+    flex-wrap:wrap; 
     width:28%;
     height:206px;
     margin: 17px;
-    padding: 6px;
+    padding: 0 1%;
     border: 5px solid grey;
     background-color: #fff;
 }

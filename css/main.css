@@ -77,7 +77,7 @@ h1 { line-height: 1.3em; }
     align-items: flex-start;
     font-style: weight;
     width:53%;
-    height:25%;
+    height:22%;
 }
 .landing-page-text-h1{
     display:flex;
@@ -193,10 +193,10 @@ button:hover{
     z-index:3;
 }
 .box-container{
-    display:flex;
-    position:relative;
-    width: 100%;
-    height:720px;
+    display: flex;
+        /* position: relative; */
+        /* width: 100%; */
+        /* height: auto; */
     border: 1px solid red;
 }
 .lin{   
@@ -205,14 +205,15 @@ button:hover{
 .line{    
     align-items: center;
     justify-content: center;
-    flex-direction:column;
-    flex-wrap:wrap; 
-    width:20%;
-    height:10px;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    width: 84%;
+    height: 127px;
     margin: 17px;
-    padding: 0 1%;
-    border: 5px solid grey;
+    padding: 2px 6%;
+    border: 6px solid grey;
     background-color: #fff;
+    display: flex;
 }
 .line:hover {
     opacity:1;

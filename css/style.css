@@ -95,6 +95,14 @@
 	.container {
 		width: auto;
 	}
+
+	.box-container {
+			/* display: flex; */
+			/* position: relative; */
+			/* width: 100%; */
+			/* height: auto; */
+		  /*	border: 1px solid red; */
+	}
 	.line{
 		padding: 5% 5%;
 		width: 84%;
@@ -192,6 +200,15 @@
 		margin-right:0px;
 	}
 
+	.box-container{
+	}
+	.box-container {
+			/* display: flex; */
+			/* position: relative; */
+			/* width: 100%; */
+			/* height: auto; */
+			/*border: 1px solid red;*/
+	}
 	.circle{
     position:absolute;
     width:20px;
@@ -312,6 +329,13 @@
 	}
 	.person:nth-of-type(odd) .person-img{
 		margin-right:0px;
+	}
+	.box-container {
+			/* display: flex; */
+			/* position: relative; */
+			/* width: 100%; */
+			/* height: auto; */
+		 /*	border: 1px solid red; */
 	}
 	.circle{
     position:absolute;

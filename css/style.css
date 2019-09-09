@@ -223,10 +223,6 @@
 	#offer {
 	box-shadow: 3px 2px 2px 2px grey;
 	transform: scale(1.00);
-	flex-direction: column;
-    grid-template-columns: 45% auto 45%;
-    grid-template-rows: 45% auto 45%;
-	grid-gap:2%;
 	}
 	.company-what {
 		padding: 16% 0%;
@@ -256,7 +252,7 @@
 	}
 }
 
-@media (max-width:390px;) {
+@media (max-width:390px) {
 	.nav {
 		display: flex;
 		padding:-3px ;

@@ -192,13 +192,6 @@ h2 {
     border-radius:50%;
     z-index:3;
 }
-.box-container{
-    /* display: flex;s
-        /* position: relative; */
-        /* width: 100%; */
-        /* height: auto; */
-   /* border: 1px solid red; */
-}
 .box_second-line {
     width:100%;
 }

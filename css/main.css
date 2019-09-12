@@ -176,7 +176,7 @@ button:hover{
     margin:0 auto;
     background-color:  #405D78;
 }    
-.company-what {
+h2 {
     margin: 7% auto;
     font-size: 36px;
     font-weight: 800;
@@ -205,6 +205,7 @@ button:hover{
 .lin{
     margin-left:11% ; 
     width:100%;
+    margin-bottom:10%;
 }
 .line {    
     width: 154px;

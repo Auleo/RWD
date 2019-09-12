@@ -123,7 +123,7 @@ hover:line{
 	transform: scale(1.00);
 	flex-direction: column;
 	}
-	.company-what {
+	h2{
 		padding: 10% 0%;
     padding-left: 26%;
    }
@@ -246,6 +246,7 @@ hover:line{
 .box_second-line{
 	width: 50%;
 }
+
 .line {
 	padding: 5% 5%;
 	width: 27%;
@@ -278,20 +279,21 @@ hover:line{
 	transform: scale(1.00);
 	flex-direction: column;
 	}
-	.company-what {
+	h2 {
 		padding: 16% 0%;
 		padding-left: 10%;
 	}
 	.container {
 		width: auto;
 	}
-
-	.box-container {
-			/* display: flex; */
+				/* display: flex; */
 			/* position: relative; */
 			/* width: 100%; */
 			/* height: auto; */
 		  /*	border: 1px solid red; */
+
+	.lin{
+	margin-bottom: 17%
 	}
 	.line {
 		padding: 5% 5%;
@@ -373,14 +375,18 @@ hover:line{
 		margin-top: 53px;
 	}
 	.person:nth-of-type(odd) .info-person {
-		text-align: justify;
+		text-align: right;
+		flex-direction: coluomn;
+		
 	}
 	.person:nth-of-type(even) .info-person {
-		text-align: justify;
-		margin-top:1%;
+		text-align:right;
+		margin-top:38%;
+		flex-direction: coluomn;
 	}
 	.person:nth-of-type(odd) .person-img{
 		margin-right:0px;
+		flex-direction: row;
 	}
 
 	.box-container {
@@ -405,16 +411,22 @@ hover:line{
 	box-shadow: 3px 2px 2px 2px grey;
 	transform: scale(1.00);
 	}
-	.company-what {
+	h2 {
 		padding: 16% 0%;
 		padding-left: 10%;
+		maprgin-botton:10%
 	}
 	.container {
 		width: auto;
 	}
+	.lin{
+		margin-left: 4%;
+		width: 100%;
+		margin-bottom: 17%		
+	}
 	.line{
 		width: 84%;
-		height: 10px;
+		height: 290px;
 		box-sizing: border-box;
 		flex-direction: column;
 	}
@@ -528,16 +540,21 @@ hover:line{
    transform: scale(1.00);
    flex-direction: column;
 	}
-	.company-what {
+	h2 {
 		padding: 16% 0%;
 		padding-left: 10%;
 	}
 	.container {
 		width: auto;
 	}
+	.lin{
+		margin-left: 4%;
+		width: 100%;
+		margin-bottom: 17%
+	}
 	.line{
 		width: 80%;
-		height: 10px;
+    height: 178px;
 		box-sizing: border-box;
 		flex-direction: column;
 	}

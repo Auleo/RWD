@@ -36,7 +36,7 @@ a:hover{
     color:#fff;
     background: #4E4E4E;     
 }
-h1 { line-height: 1.3em; }
+h1 { line-height: 1.3em; font-weight: 800; }
 .container{
     width: 960px;
     margin:0 auto;
@@ -124,7 +124,6 @@ button:hover{
     padding-top: 40px;
     width: auto;
     font-size: 36px;
-    font-weight: 800;
     justify-content: space-between;
 
 }
@@ -155,13 +154,14 @@ button:hover{
 }
 .person:nth-of-type(even) {
     text-align: right;
+    flex-direction:colum;
     flex-direction: row-reverse;       
 }
 .person:nth-of-type(even) .info-person{
-  
+  flex-direction:colum;
 }
 .person:nth-of-type(odd) .person-img{
-
+    flex-direction:colum;
 }
 .person:nth-of-type(odd) .info-person{
     margin-top:8px;
@@ -175,9 +175,9 @@ button:hover{
     height: auto;
     margin:0 auto;
     background-color:  #405D78;
-}
-.company-what{
-    padding-top:15%;
+}    
+.company-what {
+    margin: 7% auto;
     font-size: 36px;
     font-weight: 800;
     color: #F1F1F1;
@@ -199,14 +199,41 @@ button:hover{
         /* height: auto; */
    /* border: 1px solid red; */
 }
-.lin{   
-    width:98%;
+.box_second-line {
+    width:100%;
 }
+.lin{
+    margin-left:11% ; 
+    width:100%;
+}
+.line {    
+    width: 154px;
+    height: 176px;
+    margin: 2% 3%;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap     ;
+    display: inline-flex;
+    border: 2px solid grey;
+    color: grey;
+    padding-left: 11px;
+    padding-right: 11px;  
+    background: #F1F1F1;
+    box-shadow:2px 2px 3px grey;
+    transform: scale(1.00);
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    grid-gap: 2%;
+}
+
+/*
 .line{    
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap; 
     width: 84%;
     height: 127px;
     margin: 17px;
@@ -214,7 +241,7 @@ button:hover{
     border: 6px solid grey;
     background-color: #fff;
     display: flex;
-}
+}                      */          
 .line:hover {
     opacity:1;
     border-style: solid;

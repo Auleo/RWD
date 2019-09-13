@@ -11,7 +11,8 @@
 		padding-left:0%;
     color:white;
     transition: 1.09s;
-    scroll-behavior: smooth;
+		scroll-behavior: smooth;
+		margin: 53px;
 	}
 	h1 { line-height: 1.3em; }
 	.container {
@@ -33,7 +34,7 @@
 			align-items: flex-start;
 			font-style: weight;
 			width: 85%;
-			height: 43%;
+			height: 22%;
 	}	
 	button{
 		background-color: transparent;
@@ -60,15 +61,17 @@
 	}
 	.person {
 		flex-direction: column;		
-		padding: 5% 5%;
+		padding: 5% 80%;
 	}
 	.person:nth-of-type(odd) .info-person {
 		text-align: justify;
 		margin-top:10%;
+		flex-direction: column;	
 	}
-	.person:nth-of-type(even) .info-person {
+	.info-person,.person:nth-of-type(even){
 	text-align: justify;
 	text-align: left;
+	flex-direction: column;	
 	margin-top:10%;
 	}	
 .circle{
@@ -107,51 +110,6 @@ hover:line{
 	-webkit-transform:scale(1.05);
 	transform:scale(1.05);
 } 
-/*
-.circle{
-		width: 20px;
-    height: 20px;
-    background-color: #E07A64;
-    left: -412px;
-    top: -67px;
-    border-radius: 50%;
-    z-index: 3;
-	}
-	*/
-	#offer {
-	box-shadow: 3px 2px 2px 2px grey;
-	transform: scale(1.00);
-	flex-direction: column;
-	}
-	h2{
-		padding: 10% 0%;
-    padding-left: 26%;
-   }
-	.container {
-		width: auto;
-	}
-
-	.box-container {
-			/* display: flex; */
-			/* position: relative; */
-			/* width: 100%; */
-			/* height: auto; */
-		  /*	border: 1px solid red; */
-}
-	.footer{
-		padding: 1% 3%;
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-		justify-content: space-between;
-		padding-left: 0 10%;
-		align-items: center;
-		height: 50%;
-		width: auto;
-		background: #4E4E4E;
-		color: #fff;
-	}
-}
 @media  (max-width:968px){
 	.nav {
 		justify-content: space-between;
@@ -165,7 +123,8 @@ hover:line{
 		padding-left:0%;
     color:white;
     transition: 1.09s;
-    scroll-behavior: smooth;
+		scroll-behavior: smooth;
+		margin:1 22%;
 	}
 	h1 { line-height: 1.3em; }
 	.container {
@@ -186,8 +145,8 @@ hover:line{
 		justify-content: space-between;
 		align-items: flex-start;
 		font-style: weight;
-		width: 73%;
-    height: 36%;
+		width: 76%;
+    height:26%;
 	}	
 	button{
 		background-color: transparent;
@@ -219,6 +178,7 @@ hover:line{
 	.person:nth-of-type(odd) .info-person {
 		text-align: justify;
 		margin-top:10%;
+		flex-direction: column;
 	}
 	.person:nth-of-type(even) .info-person {
 		text-align: justify;
@@ -262,36 +222,17 @@ hover:line{
 	-webkit-transform:scale(1.05);
 	transform:scale(1.05);
 } 
-/*
-
-	.circle{
-		width: 20px;
-    height: 20px;
-    background-color: #E07A64;
-    left: -412px;
-    top: -67px;
-    border-radius: 50%;
-    z-index: 3;
-	}
-	*/
 	#offer {
 	box-shadow: 3px 2px 2px 2px grey;
 	transform: scale(1.00);
 	flex-direction: column;
 	}
 	h2 {
-		padding: 16% 0%;
-		padding-left: 10%;
+		padding: 11% 8%;
 	}
 	.container {
 		width: auto;
 	}
-				/* display: flex; */
-			/* position: relative; */
-			/* width: 100%; */
-			/* height: auto; */
-		  /*	border: 1px solid red; */
-
 	.lin{
 	margin-bottom: 17%
 	}
@@ -315,22 +256,19 @@ hover:line{
 		color: #fff;
 	}
 }
-
 @media (max-width:799px){
 	.nav {
 		display: flex;
-	 	padding:-3px 4%;
+		padding:1px 1%;
 		justify-content: space-between;
 		align-items: center;
-		height: 50px;
+		height: 60px;
 		margin: 0 auto;
 		color: #fff;
 		background: #4E4E4E;
 	}
 	h1 { line-height: 1.4em; }
-	.container{
-		width:100%;
-	}
+	.container{width:100%;}
   .landing-page-text {
 		display: flex;
 		padding-left:2%;
@@ -338,8 +276,8 @@ hover:line{
 		justify-content: space-between;
 		align-items: flex-start;
 		font-style: weight;
-		width:94%;
-		height:46%;	
+		width: 94%;
+    height: 33%;	
 	}
 	button{
 		background-color: transparent;
@@ -347,7 +285,7 @@ hover:line{
 		font-size: 18px;
 		color: white;
 		font: bold;
-		padding: 6% 34%;
+		padding: 6% 24%;
 		text-align: center;
 		transition: 1.04s;
 	}
@@ -355,7 +293,7 @@ hover:line{
 		background-color:white; 
 		color:black;
 		font: bold;
-		padding: 6% 34%;
+		padding: 6% 20%;
 		border: 3px sol id #FFFF;
 		font-size:18px;
 		text-align:center;
@@ -368,16 +306,15 @@ hover:line{
 		margin-bottom: 40%;
 	}
 	.person {
-	  padding-top: 10%;
+		padding-top: 10%;
 		width: 84%;
 		height: 27%;
-		padding: 10% 7%;
+		padding: zz% 4%;
 		margin-top: 53px;
 	}
 	.person:nth-of-type(odd) .info-person {
 		text-align: right;
-		flex-direction: coluomn;
-		
+		flex-direction: coluomn;		
 	}
 	.person:nth-of-type(even) .info-person {
 		text-align:right;
@@ -388,14 +325,6 @@ hover:line{
 		margin-right:0px;
 		flex-direction: row;
 	}
-
-	.box-container {
-			/* display: flex; */
-			/* position: relative; */
-			/* width: 100%; */
-			/* height: auto; */
-			/*border: 1px solid red;*/
-	}
 	.circle{
     position:absolute;
     width:20px;
@@ -405,22 +334,20 @@ hover:line{
     top:-11px; 
     border-radius:50%;
     z-index:3;
-	}
-	
+	}	
 	#offer {
 	box-shadow: 3px 2px 2px 2px grey;
 	transform: scale(1.00);
 	}
 	h2 {
-		padding: 16% 0%;
-		padding-left: 10%;
-		maprgin-botton:10%
+		padding: 11% 0%;
+		margin-bottom:8%
 	}
 	.container {
 		width: auto;
 	}
 	.lin{
-		margin-left: 4%;
+		margin-left: 1%;
 		width: 100%;
 		margin-bottom: 17%		
 	}
@@ -444,7 +371,6 @@ hover:line{
 		color: #fff;
 	}
 }
-
 @media (max-width:390px) {
 	.nav {
 		display: flex;
@@ -464,13 +390,14 @@ hover:line{
 	}
 	.landing-page-text {
 			display: flex;
-			padding-left: 9%;
+			padding-left:1%;
 			flex-direction: column;
 			justify-content: space-between;
 			align-items: flex-start;
 			font-style: weight;
 			width: 99%;
-			height: 66%;
+			height: 36%;
+			padding-top:10%;
 	}
 	button{
 		background-color: transparent;
@@ -518,13 +445,6 @@ hover:line{
 	.person:nth-of-type(odd) .person-img{
 		margin-right:0px;
 	}
-	.box-container {
-			/* display: flex; */
-			/* position: relative; */
-			/* width: 100%; */
-			/* height: auto; */
-		 /*	border: 1px solid red; */
-	}
 	.circle{
     position:absolute;
     width:20px;
@@ -536,14 +456,13 @@ hover:line{
     z-index:3;
 	}
 	#offer {
-   box-shadow: 3px 2px 2px 2px grey;
-   transform: scale(1.00);
-   flex-direction: column;
+		box-shadow: 3px 2px 2px 2px grey;
+		transform: scale(1.00);
+		flex-direction: column;
 	}
 	h2 {
 		padding: 16% 0%;
-		padding-left: 10%;
-	}
+		}
 	.container {
 		width: auto;
 	}

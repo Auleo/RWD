@@ -6,7 +6,6 @@ body{
     cursor:url(images/my-cursor.png);
 }
 .row{ clear:both; }
-
 a:link , a:visited , a:hover, a:active { 
     text-decoration:none;
     color:white;
@@ -31,7 +30,7 @@ a:hover{
     justify-content:space-between;
     align-items: center;
     height:50px;
-    padding: 0 10%;
+
     margin:0 auto;
     color:#fff;
     background: #4E4E4E;     
@@ -46,6 +45,9 @@ h1 { line-height: 1.3em; font-weight: 800; }
     justify-content:space-between;
     align-items: center;
 }
+#index{ margin-right:40px;}
+#about, #offer{ margin-right:45px; }
+.pointer{ margin-right:30px;}
 .shedow{
     padding-left:11%; 
 }
@@ -84,7 +86,7 @@ h1 { line-height: 1.3em; font-weight: 800; }
     justify-content: space-between;
     font-weight:bold;  
     font-size:36px;
-    color: #FFF;
+    color:#FFF;
     width:auto;
 }
 .landing-page-text-h2{
@@ -125,7 +127,6 @@ button:hover{
     width: auto;
     font-size: 36px;
     justify-content: space-between;
-
 }
 .person {
     display: flex;
@@ -158,7 +159,7 @@ button:hover{
     flex-direction: row-reverse;       
 }
 .person:nth-of-type(even) .info-person{
-  flex-direction:colum;
+    flex-direction:colum;
 }
 .person:nth-of-type(odd) .person-img{
     flex-direction:colum;
@@ -178,7 +179,7 @@ button:hover{
 }    
 h2 {
     margin: 7% auto;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 800;
     color: #F1F1F1;
 } 
@@ -221,21 +222,6 @@ h2 {
     grid-template-rows: 33% 33% 33%;
     grid-gap: 2%;
 }
-
-/*
-.line{    
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    /* flex-wrap: wrap; 
-    width: 84%;
-    height: 127px;
-    margin: 17px;
-    padding: 2px 6%;
-    border: 6px solid grey;
-    background-color: #fff;
-    display: flex;
-}                      */          
 .line:hover {
     opacity:1;
     border-style: solid;
@@ -262,11 +248,8 @@ h2 {
     background: #4E4E4E;
     color:#fff;
 }
-
 .rig{
     text-decoration:none;
     color:none;
 
 }
-
-

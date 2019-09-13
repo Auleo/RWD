@@ -33,8 +33,8 @@
 			justify-content: space-between;
 			align-items: flex-start;
 			font-style: weight;
-			width: 85%;
-			height: 22%;
+			width:100%;
+			height:42%;
 	}	
 	button{
 		background-color: transparent;
@@ -61,7 +61,7 @@
 	}
 	.person {
 		flex-direction: column;		
-		padding: 5% 80%;
+		margin: 15% 1%;
 	}
 	.person:nth-of-type(odd) .info-person {
 		text-align: justify;
@@ -72,7 +72,7 @@
 	text-align: justify;
 	text-align: left;
 	flex-direction: column;	
-	margin-top:10%;
+	margin: 15% 1%;
 	}	
 .circle{
 	position:absolute;
@@ -93,7 +93,7 @@
 	grid:flex;   
 }
 .box_second-line{
-	width: 100%;
+	width:64%;
 }
 .line {
 	padding: 5% 5%;
@@ -135,19 +135,19 @@ hover:line{
 	}
 	.landing-page-shedow {
     padding: 0px 8%;
-    width: 80%;
+    width:100%;
     height: 90%;
 	}
 	.landing-page-text {
 		display: flex;
-		padding-left:9%;
+		padding-left:9%;     
 		flex-direction: column;
 		justify-content: space-between;
 		align-items: flex-start;
 		font-style: weight;
-		width: 76%;
-    height:26%;
-	}	
+		width:100%;
+    height:46%;
+	}
 	button{
 		background-color: transparent;
 		border: 3px solid #FFF;
@@ -168,12 +168,13 @@ hover:line{
 		text-align:center;
 		transform: 0,01s;
 	}
-	.top-logo {
+ .top-logo {
 		text-align:center;
 	}
 	.person {
 		flex-direction: column;		
-		padding: 5% 5%;
+		padding:1% 2%;
+		width:60%;
 	}
 	.person:nth-of-type(odd) .info-person {
 		text-align: justify;
@@ -206,7 +207,6 @@ hover:line{
 .box_second-line{
 	width: 50%;
 }
-
 .line {
 	padding: 5% 5%;
 	width: 27%;
@@ -227,8 +227,8 @@ hover:line{
 	transform: scale(1.00);
 	flex-direction: column;
 	}
-	h2 {
-		padding: 11% 8%;
+	h2,.landing-page-container {
+		padding:0% 5%;
 	}
 	.container {
 		width: auto;
@@ -277,7 +277,7 @@ hover:line{
 		align-items: flex-start;
 		font-style: weight;
 		width: 94%;
-    height: 33%;	
+    height:43%;	
 	}
 	button{
 		background-color: transparent;
@@ -285,7 +285,7 @@ hover:line{
 		font-size: 18px;
 		color: white;
 		font: bold;
-		padding: 6% 24%;
+		padding: 6% 20%;
 		text-align: center;
 		transition: 1.04s;
 	}
@@ -303,13 +303,13 @@ hover:line{
 		text-align:center;
 	}
 	.person-img{
-		margin-bottom: 40%;
+		margin-bottom: 4%;
 	}
 	.person {
 		padding-top: 10%;
 		width: 84%;
 		height: 27%;
-		padding: zz% 4%;
+		padding:0% 4%;
 		margin-top: 53px;
 	}
 	.person:nth-of-type(odd) .info-person {
@@ -318,7 +318,7 @@ hover:line{
 	}
 	.person:nth-of-type(even) .info-person {
 		text-align:right;
-		margin-top:38%;
+		margin-top:8%;
 		flex-direction: coluomn;
 	}
 	.person:nth-of-type(odd) .person-img{
@@ -339,8 +339,8 @@ hover:line{
 	box-shadow: 3px 2px 2px 2px grey;
 	transform: scale(1.00);
 	}
-	h2 {
-		padding: 11% 0%;
+	h2 #offer {
+		padding: 11% 9%;
 		margin-bottom:8%
 	}
 	.container {
@@ -349,7 +349,7 @@ hover:line{
 	.lin{
 		margin-left: 1%;
 		width: 100%;
-		margin-bottom: 17%		
+		margin: 17% 0%;		
 	}
 	.line{
 		width: 84%;
@@ -369,6 +369,7 @@ hover:line{
 		width: auto;
 		background: #4E4E4E;
 		color: #fff;
+		margin-bottom:10%;
 	}
 }
 @media (max-width:390px) {

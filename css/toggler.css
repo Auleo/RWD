@@ -1,0 +1,40 @@
+body{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+}
+.nav-troggle{
+  width:100%;
+  background :red;
+}
+ul{
+  width:98%;
+  margin:0 auto;
+  padding:0;
+}
+ul li{
+  list-style:none;
+  display:inline-block;
+  padding:20px;
+  }
+ul li a{
+  color:#fff;
+  text-decoration: none;
+}
+.toggle{
+width:100%;
+justify-content:space-between;
+padding:10px 20px;
+background: #4E4E4E;;
+text-align: right;
+box-sizing:border-box;
+color:#fff;
+font-size:18px;
+}
+
+@media (max-width:765px)
+{
+  .toggle{
+    display: block;
+  }
+}

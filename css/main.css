@@ -79,7 +79,7 @@ h1 { line-height: 1.3em; font-weight: 800; }
     align-items: flex-start;
     font-style: weight;
     width:53%;
-    height:24%;
+    height:37%;
 }
 .landing-page-text-h1{
     display:flex;
@@ -105,7 +105,7 @@ button{
     font-size: 18px;
     color: white;
     font: bold;
-    padding: 6% 34%;
+    padding: 5% 34%;
     text-align: center;
     transition: 1.04s;
 }
@@ -113,7 +113,7 @@ button:hover{
     background-color:white; 
     color:black;
     font: bold;
-    padding: 6% 34%;
+    padding: 5% 34%;
     border: 3px sol id #FFFF;
     font-size:18px;
     text-align:center;
@@ -200,10 +200,12 @@ h2 {
     margin-left:11% ; 
     width:100%;
     margin-bottom:10%;
+    display: flex;
+    flex-direction: row;
 }
 .line {    
-    width: 154px;
-    height: 176px;
+    width: 204px;
+    height: 182px;
     margin: 2% 3%;
     justify-content: center;
     align-items: center;  

@@ -1,3 +1,11 @@
+@media (max-width:1010px){
+	.landing-page-text{
+	width: 80%;
+	height:55%;
+	}
+}
+
+
 @media (max-width:1120px){
 	.nav {
 		justify-content: space-between;
@@ -16,25 +24,24 @@
 	}
 	h1 { line-height: 1.3em; }
 	.container {
-		width:100%;
+		width: 94%;
 	}
 	.nav-container{
 		width: auto;
 	}
 	.landing-page-shedow {
-		padding: 0px 19%;
-		width: 80%;
-		height: 100%;
+		padding: 10px 15%;
+		width: 73%;
+		height: auto;
 	}
 	.landing-page-text {
 			display: flex;
-			padding-left: 9%;
 			flex-direction: column;
 			justify-content: space-between;
 			align-items: flex-start;
 			font-style: weight;
-			width:100%;
-			height:42%;
+			width:75%;
+			height:38%;
 	}	
 	button{
 		background-color: transparent;
@@ -42,7 +49,8 @@
 		font-size: 18px;
 		color: white;
 		font: bold;
-		padding: 6% 34%;
+		padding: 2% 34%;
+		justify-content: center;
 		text-align: center;
 		transition: 1.04s;
 	}
@@ -50,10 +58,11 @@
 		background-color:white; 
 		color:black;
 		font: bold;
-		padding: 6% 34%;
+		padding: 2% 34%;
 		border: 3px sol id #FFFF;
 		font-size:18px;
-		text-align:center;
+		justify-content: center;
+		text-align: center;
 		transform: 0,01s;
 	}
 	.top-logo {
@@ -61,7 +70,8 @@
 	}
 	.person {
 		flex-direction: column;		
-		margin: 15% 1%;
+		width:98%;
+		margin:8% 0%;
 	}
 	.person:nth-of-type(odd) .info-person {
 		text-align: justify;
@@ -72,7 +82,8 @@
 	text-align: justify;
 	text-align: left;
 	flex-direction: column;	
-	margin: 15% 1%;
+	width:98%;
+	margin:9% 0%;
 	}	
 .circle{
 	position:absolute;
@@ -101,7 +112,7 @@
 	height: 91px;
 	flex-direction: column;
 } 
-hover:line{
+.hover:line{
 	border-style: solid;
 	-moz-transfor:scale(1.05);
 	-webkit-transform:scale(1.05);
@@ -128,9 +139,9 @@ hover:line{
 	}
 	h1 { line-height: 1.3em; }
 	.container {
-	width: 90%;
+		width: 94%;
 	}
-	.nav-container{
+	.nav{
 	width: auto;
 	}
 	.landing-page-shedow {
@@ -145,8 +156,8 @@ hover:line{
 		justify-content: space-between;
 		align-items: flex-start;
 		font-style: weight;
-		width:100%;
-    height:46%;
+		width:53%;
+    height:37%;
 	}
 	button{
 		background-color: transparent;
@@ -154,7 +165,8 @@ hover:line{
 		font-size: 18px;
 		color: white;
 		font: bold;
-		padding: 6% 34%;
+		padding: 2% 34%;
+		justify-content: center;
 		text-align: center;
 		transition: 1.04s;
 	}
@@ -162,10 +174,11 @@ hover:line{
 		background-color:white; 
 		color:black;
 		font: bold;
-		padding: 6% 34%;
+		padding: 2% 34%;
 		border: 3px sol id #FFFF;
 		font-size:18px;
-		text-align:center;
+		justify-content: center;
+		text-align: center;
 		transform: 0,01s;
 	}
  .top-logo {
@@ -174,7 +187,7 @@ hover:line{
 	.person {
 		flex-direction: column;		
 		padding:1% 2%;
-		width:60%;
+		width:98%;
 	}
 	.person:nth-of-type(odd) .info-person {
 		text-align: justify;
@@ -213,7 +226,7 @@ hover:line{
 	height: 91px;
 	flex-direction: column;
 } 
-hover:line{
+.hover:line{
 	border-style: solid;
 	-moz-transfor:scale(1.05);
 	-webkit-transform:scale(1.05);
@@ -226,12 +239,13 @@ hover:line{
 	box-shadow: 3px 2px 2px 2px grey;
 	transform: scale(1.00);
 	flex-direction: column;
+  margin-right: 7px;
 	}
 	h2,.landing-page-container {
-		padding:0% 5%;
+		padding:0% 2%;
 	}
 	.container {
-		width: auto;
+		width: 100%;
 	}
 	.lin{
 	margin-bottom: 17%
@@ -256,7 +270,27 @@ hover:line{
 		color: #fff;
 	}
 }
+@media (max-width:1095px){
+	.landing-page-text{
+		width: 82%;
+		height: 33%;
+	}
+
+}
+@media (max-width:899px){
+   .landing-page-text{
+		width: 82%;
+		height:33%;
+    }
+.container nav-container{
+		display:none;
+		}
+
+
+}
+
 @media (max-width:799px){
+	
 	.nav {
 		display: flex;
 		padding:1px 1%;
@@ -268,7 +302,15 @@ hover:line{
 		background: #4E4E4E;
 	}
 	h1 { line-height: 1.4em; }
-	.container{width:100%;}
+	.container{width: 94%;}
+	.landing-page-shedow {
+    padding: 0px 0%;
+    width: 100%;
+		height: 80%;
+	}
+	h2, .landing-page-container {
+		padding: 0% 5%;
+	}
   .landing-page-text {
 		display: flex;
 		padding-left:2%;
@@ -276,8 +318,8 @@ hover:line{
 		justify-content: space-between;
 		align-items: flex-start;
 		font-style: weight;
-		width: 94%;
-    height:43%;	
+		width: 90%;
+    height: 42%;
 	}
 	button{
 		background-color: transparent;
@@ -285,18 +327,20 @@ hover:line{
 		font-size: 18px;
 		color: white;
 		font: bold;
-		padding: 6% 20%;
+		padding: 2% 34%;
 		text-align: center;
-		transition: 1.04s;
+		justify-content: center;
+		transition: .04s;
 	}
 	button:hover{
 		background-color:white; 
 		color:black;
 		font: bold;
-		padding: 6% 20%;
+		padding: 2% 34%;
 		border: 3px sol id #FFFF;
 		font-size:18px;
 		text-align:center;
+		justify-content: center;
 		transform: 0,01s;
 	}
 	.top-logo {
@@ -307,12 +351,17 @@ hover:line{
 	}
 	.person {
 		padding-top: 10%;
-		width: 84%;
+		width: 98%;
 		height: 27%;
 		padding:0% 4%;
 		margin-top: 53px;
 	}
-	.person:nth-of-type(odd) .info-person {
+	#offer {
+		box-shadow: 3px 2px 2px 2px grey;
+		transform: scale(1.00);
+    margin-right: 7px;
+		}
+.person:nth-of-type(odd) .info-person {
 		text-align: right;
 		flex-direction: coluomn;		
 	}
@@ -335,27 +384,25 @@ hover:line{
     border-radius:50%;
     z-index:3;
 	}	
-	#offer {
-	box-shadow: 3px 2px 2px 2px grey;
-	transform: scale(1.00);
-	}
-	h2 #offer {
-		padding: 11% 9%;
+	.h{
+		padding: 11% 19%;
 		margin-bottom:8%
 	}
 	.container {
-		width: auto;
+		width: 94%;
 	}
 	.lin{
 		margin-left: 1%;
 		width: 100%;
-		margin: 17% 0%;		
+		margin: 8% 0%;		
 	}
 	.line{
 		width: 84%;
-		height: 290px;
+    height: 449px;
 		box-sizing: border-box;
 		flex-direction: column;
+		width: 84%;
+    height:409px;
 	}
 	.footer{
 		padding: 1% 3%;
@@ -369,8 +416,8 @@ hover:line{
 		width: auto;
 		background: #4E4E4E;
 		color: #fff;
-		margin-bottom:10%;
 	}
+
 }
 @media (max-width:390px) {
 	.nav {
@@ -385,7 +432,6 @@ hover:line{
 	}
 	h1 { line-height: 1.3em; }
 	.landing-page-shedow {
-		padding: 0px 8%;
 		width: 100%;
 		height: 100%;
 	}
@@ -396,9 +442,14 @@ hover:line{
 			justify-content: space-between;
 			align-items: flex-start;
 			font-style: weight;
-			width: 99%;
-			height: 36%;
+			width:100%;
+			height: 9%;
 			padding-top:10%;
+	}
+	.landing-page-shedow {
+    padding: 0px 0%;
+    width: 100%;
+    height: 88%;
 	}
 	button{
 		background-color: transparent;
@@ -406,19 +457,21 @@ hover:line{
 		font-size: 18px;
 		color: white;
 		font: bold;
-		padding: 6% 34%;
-		text-align: center;
+		padding:2% 24%;
 		transition: 1.04s;
+		justify-content: center;
+		text-align: center;
 	}
 	button:hover{
 		background-color:white; 
 		color:black;
 		font: bold;
-		padding: 6% 34%;
+		padding: 2% 24%;
 		border: 3px sol id #FFFF;
 		font-size:18px;
-		text-align:center;
-		transform: 0,01s;
+		transition: 1.04s;
+		justify-content: center;
+		text-align: center;
 	}
 	.top-logo {
 		padding-left:10%;
@@ -428,8 +481,8 @@ hover:line{
 		margin-bottom: 40%;	
 	}
 	.person {
-	  padding-top: 10%;
-		width: 84%;
+		padding-top: 10%;
+		width:98%;
 		height: 27%;
 		padding: 10% 7%;
 		margin-top: 53px;
@@ -460,12 +513,13 @@ hover:line{
 		box-shadow: 3px 2px 2px 2px grey;
 		transform: scale(1.00);
 		flex-direction: column;
+		margin-right: 7px;
 	}
 	h2 {
 		padding: 16% 0%;
 		}
 	.container {
-		width: auto;
+		width: 92%;
 	}
 	.lin{
 		margin-left: 4%;

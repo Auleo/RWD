@@ -6,22 +6,27 @@ body{
     cursor:url(images/my-cursor.png);
 }
 .row{ clear:both; }
+
 a:link , a:visited , a:hover, a:active { 
     text-decoration:none;
-    color:white;
     transition: 1.09s;
     scroll-behavior: smooth;
 }
+a.pointer{ margin-right:30px; cursor:not-allowed; }
 .links{
     -webkit-transition-duration: 0.1s; 
     transition-duration: 0.2s;
     display:fixed;
-    height:auto;
-    background: #4E4E4E; 
     align-items:center;
-}   
+}
+a{
+    background:; 
+    color:white;
+    display: inline;    
+} 
+}
 a:hover{
-    background:rgb(255, 254, 254); 
+    background:white; 
     color:black;
     display: inline;    
 }
@@ -31,7 +36,6 @@ nav{
     align-items: center;
     height:50px;
     margin:0 auto;
-    color:#fff;
     background: #4E4E4E;     
 }
 h1 { line-height: 1.3em; font-weight: 800; }
@@ -156,7 +160,7 @@ button:hover{
     flex-direction: row-reverse;       
 }
 .person:nth-of-type(even) .info-person{
-  flex-direction:colum;
+    flex-direction:colum;
 }
 .person:nth-of-type(odd) .person-img{
     flex-direction:colum;
@@ -255,16 +259,12 @@ h2 {
     padding-left:0 10%;
     align-items: center;
     height: 50%;
-    padding:1% 10%;
+    padding:0% 10%;
     width:auto;
     background: #4E4E4E;
     color:#fff;
 }
-
 .rig{
     text-decoration:none;
     color:none;
-
 }
-
-

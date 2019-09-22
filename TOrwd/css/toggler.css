@@ -3,7 +3,6 @@
   .toggle{ display:none; 
   }
 }
-
 @media(max-width:699px){ 
   .nav, .nav-container,.none, .links{
     display: none;

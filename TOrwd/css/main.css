@@ -6,7 +6,6 @@ body{
     cursor:url(images/my-cursor.png);
 }
 .row{ clear:both; }
-
 a:link , a:visited , a:hover, a:active { 
     text-decoration:none;
     transition: 1.09s;
@@ -20,41 +19,43 @@ a.pointer{ margin-right:30px; cursor:not-allowed; }
     align-items:center;
 }
 a{
-    background:; 
+    background:transparent; 
     color:white;
     display: inline;    
 } 
-}
 a:hover{
-    background:white; 
+    background:transparent;
     color:black;
-    display: inline;    
+    display:inline;    
+    padding-right:0 5%;
 }
 nav{
     display:flex;
     justify-content:space-between;
     align-items: center;
     height:50px;
+    width:100vw;
     margin:0 auto;
     background: #4E4E4E;     
 }
 h1 { line-height: 1.3em; font-weight: 800; }
 .container{
     width: 960px;
+    padding: 2 2%;
     margin:0 auto;
 }
 .nav-container{
     display:flex;
     justify-content:space-between;
     align-items: center;
+    height:50px;
+
+    margin:0 auto;
 }
 .shedow{
     padding-left:11%; 
 }
-.wrapper .container{
-    height:0 auto;
-    width: 100%;
-}
+
 .landing-page{ 
     display:flex;    
     height:100vh;
@@ -64,7 +65,7 @@ h1 { line-height: 1.3em; font-weight: 800; }
     background-position:center;
 }
 .landing-page-shedow{
-    width: 100%;
+    width: 100vw;
     height: 100%;   
 }
 .landing-page-container{
@@ -122,18 +123,26 @@ button:hover{
 .name-experts{
     font-weight: bold;
 }
+#about{
+    width:95%;
+    align-self: center;
+}
+.wrapper{
+    align-self: center;
+    margin:1 19%;
+}
 .top-logo{
     padding-top: 40px;
     width: auto;
     font-size: 36px;
     justify-content: space-between;
-
+    padding-left: 6%;
 }
 .person {
     display: flex;
     align-items: center;
     padding:5% 0%;
-    margin-left:0%;
+    margin-left:6%;
 }
 .person-img{ 
     flex-shrink:0;
@@ -156,14 +165,14 @@ button:hover{
 }
 .person:nth-of-type(even) {
     text-align: right;
-    flex-direction:colum;
+    flex-direction:column;
     flex-direction: row-reverse;       
 }
 .person:nth-of-type(even) .info-person{
-    flex-direction:colum;
+    flex-direction:column;
 }
 .person:nth-of-type(odd) .person-img{
-    flex-direction:colum;
+    flex-direction:column;
 }
 .person:nth-of-type(odd) .info-person{
     margin-top:8px;
@@ -173,7 +182,7 @@ button:hover{
     display:flex;
     justify-content:space-between;
     align-items: center;
-    width:100%;
+    width:100vw;
     height: auto;
     margin:0 auto;
     background-color:  #405D78;
@@ -194,18 +203,15 @@ h2 {
     border-radius:50%;
     z-index:3;
 }
-.box_second-line {
-    width:100%;
-}
 .lin{
-    margin-left:11% ; 
     width:100%;
+    padding-left: 6%;
     margin-bottom:10%;
 }
 .line {    
-    width: 154px;
-    height: 176px;
-    margin: 2% 3%;
+    width: 156px;
+    height: 163px;
+    margin: 3% 4%;
     justify-content: center;
     align-items: center;  
     flex-direction: column;
@@ -223,21 +229,6 @@ h2 {
     grid-template-rows: 33% 33% 33%;
     grid-gap: 2%;
 }
-
-/*
-.line{    
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    /* flex-wrap: wrap; 
-    width: 84%;
-    height: 127px;
-    margin: 17px;
-    padding: 2px 6%;
-    border: 6px solid grey;
-    background-color: #fff;
-    display: flex;
-}                      */          
 .line:hover {
     opacity:1;
     border-style: solid;
@@ -259,8 +250,8 @@ h2 {
     padding-left:0 10%;
     align-items: center;
     height: 50%;
-    padding:0% 10%;
-    width:auto;
+    padding:1% 9%;
+    width:83%;
     background: #4E4E4E;
     color:#fff;
 }

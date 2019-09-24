@@ -49,15 +49,14 @@ h1 { line-height: 1.3em; font-weight: 800; }
     justify-content:space-between;
     align-items: center;
     height:50px;
-
     margin:0 auto;
 }
 .shedow{
     padding-left:11%; 
 }
-
 .landing-page{ 
-    display:flex;    
+    display:flex; 
+    width: 102vw;   
     height:100vh;
     background:url(https://picsum.photos/id/307/1920/1080);     
     background-color: rgb(0, 0, 0, .3);
@@ -177,7 +176,6 @@ button:hover{
 .person:nth-of-type(odd) .info-person{
     margin-top:8px;
 }
-
 #offer{
     display:flex;
     justify-content:space-between;

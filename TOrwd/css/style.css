@@ -115,7 +115,7 @@
 	text-align: left;
 	flex-direction: column;	
 	width:91%;
-	margin:9% 4%;
+	margin:9% 6%;
 	}	
 .circle{
 	position:absolute;
@@ -206,7 +206,7 @@
 		transform: 0,01s;
 	}
 .top-logo { text-align:center; }
-	.person { flex-direction: column; width:98%; }
+	.person { flex-direction: column; width:91%; }
 	.person:nth-of-type(odd) .info-person { text-align: justify; margin-top:10%; flex-direction: column; }
 	.person:nth-of-type(even) .info-person { text-align: justify; text-align: left; margin-top:10%; }	
 	.circle{
@@ -250,7 +250,7 @@
 	width: 100vw;
 	height: 100%;
 }
-	h2 { margin:9% 18%; font-size: 35px; }
+	h2 { margin:9% 20%; font-size: 24px; line-height:37px; }
 	.container { width:98% }
 	.lin{ margin-bottom: 17%; }
 	.line {
@@ -340,8 +340,8 @@ button:hover{
 	margin: 8% 0%;		
 }
 .line {
-	width: 25%;
-	height: 282px;
+	width: 208px;
+	height: 212px;
 	font-size: 23px;
 	margin:2%;
 	padding: 2% 11%;
@@ -357,10 +357,19 @@ button:hover{
 	-webkit-transform:scale(1.05);
 	transform:scale(1.05);
 } 
+@media (max-width:700){
+	.landing-page-text{
+		width:81%;
+}
+@media (max-width:600){
+	.landing-page-text{
+		width:81%;
+	}
+}
 @media (max-width:899px){
 .landing-page-text{
-		width: 71%;
-		height:30%;
+		width: 77%;
+		height:33%;
 		padding-left:7%;
     }
 .container .nav-container{
@@ -404,9 +413,9 @@ button:hover{
 		margin: 8% 0%;		
 	}
 	.line{
-			width: 60%;
-			height: 312px;
-			font-size: 29px;
+			width:198px;
+			height:229px;
+			font-size: 25px;
 			padding: 2% 11%;
 			justify-content: center;
 	}
@@ -421,7 +430,7 @@ button:hover{
 		} 
 
 }
-@media (max-width:799px){
+@media screen (max-width:799px){
 	a:link, a:visited, a:hover, a:active {
     color: white;
     transition: 1.09s;
@@ -447,7 +456,7 @@ button:hover{
 		justify-content: space-between;
 		align-items: flex-start;   
 		font-style: weight;
-		width:76%;
+		width:77%;
     height:29%;
 	}
 	button{
@@ -507,8 +516,8 @@ button:hover{
 	.line{
 		box-sizing: border-box;
 		flex-direction: column;
-		width: 84%;
-    height:409px;
+		width:300px;
+		height:320px;
 	}
 	.circle{
 		position:absolute;
@@ -546,15 +555,15 @@ button:hover{
 		padding-left: 0 10%;
 		align-items: center;
 		height: 50%;
-		width:  86%;
+		width:  88%;
 		background: #4E4E4E;
     color: #fff;
 }
-@media(mac-width:699px){	
+@media (mac-width:699px){	
 	.nav {
 		justify-content: space-between;
-		align-items: center;
-		height: 50px;
+		align-items:center;
+		height:50px;
 		width:100vw;
 		margin: 0 auto;
 		color: #fff;
@@ -582,8 +591,8 @@ button:hover{
 	.line{
 		box-sizing: border-box;
 		flex-direction: column;
-		width: 80%;
-    height:350px;
+		width:180px;
+    height:190px;
 	}
 	.footer{
 		display: flex;
@@ -601,7 +610,7 @@ button:hover{
 }
 
 @media (max-width:390px){
-	h1 {font-size: 28px;}
+	h1 {font-size: 25px;}
 	.landing-page-text {
 			display: flex;
 			flex-direction: column;
@@ -609,7 +618,7 @@ button:hover{
 			align-items: flex-start;
 			font-style: weight;
 			width:100vw;
-			height:33%;
+			height:42%;
 			padding-top:10%;
 	}
 	button{
@@ -618,7 +627,7 @@ button:hover{
 		font-size: 18px;
 		color: white;
 		font: bold;
-		padding:2% 34%;
+		padding:2% 32%;
 		transition: 1.04s;
 		justify-content: center;
 		text-align: center;
@@ -627,7 +636,7 @@ button:hover{
 		background-color:white; 
 		color:black;
 		font: bold;
-		padding:2% 34%;
+		padding:2% 32%;
 		border: 3px sol id #FFFF;
 		font-size:18px;
 		transition: 1.04s;
@@ -659,8 +668,8 @@ button:hover{
 	h2{
     margin: 12% 12%;
     font-size:23px;
-    font-weight: 800;
-    color: #F1F1F1;
+		font-weight: 800;
+		color: #F1F1F1;
 } 
 	.container { width: 100vw; }
 	.lin{
@@ -671,18 +680,18 @@ button:hover{
 	.line{
 		box-sizing: border-box;
 		flex-direction: column;
-		width: 80%;
-		height: 230px;
-		font-size: 20px;
+		width:100px;
+		height:109px;
+		font-size:19px;
 	}
 	.hover:line{
 		border-style: solid;
-		-moz-transfor:scale(1.05);
+		-moz-transfor:scale(1.15);
 		-webkit-transform:scale(1.05);
-		-o-transform:scale(1.05);
-		-ms-transform:scale(1.05);
-		-webkit-transform:scale(1.05);
-		transform:scale(1.05);
+		-o-transform:scale(1.15);
+		-ms-transform:scale(1.15);
+		-webkit-transform:scale(1.15);
+		transform:scale(1.15);
 	} 
 	.footer{
 		margin-top: -1%;
@@ -698,24 +707,19 @@ button:hover{
 			cursor:url(images/my-cursor.png);
 	}
 		.row{ clear:both; }
-		h1 {font-size: 28px;}
-		.landing-page-text {
-				display: flex;
-				flex-direction: column;
-				justify-content: space-between;
-				align-items: flex-start;
-				font-style: weight;
-				width: 78vw;
-				height:35%;
+		h1 {font-size:18px; line-height: 34;}
+		.landing-page {
+				width:81%;
+				height:48%;
 				padding-top:10%;
 		}
 		button{
 			background-color: transparent;
 			border: 3px solid #FFF;
-			font-size: 18px;
+			font-size: 12px;
 			color: white;
 			font: bold;
-			padding:1% 33%;
+			padding:1% 30%;
 			transition: 1.04s;
 			justify-content: center;
 			text-align: center;
@@ -724,15 +728,15 @@ button:hover{
 			background-color:white; 
 			color:black;
 			font: bold;
-			padding:1% 33%;
+			padding:1% 30%;
 			border: 3px sol id #FFFF;
-			font-size:18px;
+			font-size:12px;
 			transition: 1.04s;
 			justify-content: center;
 			text-align: center;
 		}
-		.top-logo { padding-left:2%; font-size: 28px;	margin-bottom:20px; }
-		.person-img{margin-bottom: 40%; }
+		.top-logo { padding-left:2%; font-size:18px;	margin-bottom:20px; }
+		.person-img{margin-bottom: 30%; }
 		.person { padding-top: 10%; width:92%; height: 27%;  margin-top: 10px; padding: 10% 0%; }
 		.person:nth-of-type(odd) .info-person { text-align: justify; margin-right:0%; margin-top:0%; }
 		.person:nth-of-type(even) .info-person { text-align: justify; margin-top:1%; padding: 10% 0%; }
@@ -778,9 +782,9 @@ button:hover{
 		.line{
 			box-sizing: border-box;
 			flex-direction: column;
-			width: 77%;
-			height: 245px;
-			font-size:20px;
+			width:55px;
+			height:55px;
+			font-size:16px;
 		}
 		.hover:line{
 			border-style: solid;
@@ -791,7 +795,5 @@ button:hover{
 			-webkit-transform:scale(1.05);
 			transform:scale(1.05);
 		} 
-	footer{
-		margin-bottom: 5%;
-	}
+	footer{	margin-bottom: 5%; }
 		.rig{ text-decoration:none; color:none; }

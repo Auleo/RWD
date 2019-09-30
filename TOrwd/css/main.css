@@ -227,6 +227,10 @@ h2 {
     background: white;
     box-sizing: border-box;
     transition: scale(1.02);
+    grid-template-columns:32% 32% 32%;
+    grid-template-rows: 32% 32% 32%;
+    grid-gap:1%;
+
 }
 .line:hover {
     opacity:1;

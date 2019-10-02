@@ -251,7 +251,7 @@
 	width: 100vw;
 	height: 100%;
 }
-	h2 { margin:9% 20%; font-size: 24px; line-height:37px; }
+	h2 { margin:9% 25%; font-size: 30px; line-height:37px; }
 	.container { width:98% }
 	.lin{ margin-bottom: 17%; }
 	.line {
@@ -293,7 +293,7 @@
 		}
 	.landing-page-text{
 		width:65%;
-		height:33%;
+		height:29%;
 		padding:5%;
 	}
 	.line {
@@ -360,7 +360,7 @@ button:hover{
 @media (max-width:899px){
 	.landing-page-text{
 		width:68%;
-		height:37%;
+		height:29%;
 		padding-left:5%;
     }
 .container .nav-container{
@@ -489,7 +489,7 @@ h2 {
     font-size: 33px;
     line-height: 37px;
 }
-	.person-img{ margin-bottom: 24%;}
+	/*.person-img{ margin-bottom: 24%;} */
 	.person {
 		width: 97%;
 		height: 27%;
@@ -565,7 +565,7 @@ h2 {
 		padding-left: 0 10%;
 		align-items: center;
 		height: 50%;
-		width:  88%;
+		width:84%;
 		background: #4E4E4E;
     color: #fff;
 }

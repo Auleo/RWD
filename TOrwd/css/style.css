@@ -268,7 +268,7 @@
 		padding-left: 0 10%;
 		align-items: center;
 		height: 50%;
-		width:84%;
+		width:85%;
 		background: #4E4E4E;
 		color: #fff;
 	}
@@ -384,7 +384,7 @@ button:hover{
 		padding:3% 35%;
 		border: 3px sol id #FFFF;
 		font-size:18px;
-		text-align:center;
+		text-align:center;%
 		justify-content: center;
 		transform: 1,01s;
 		}
@@ -409,7 +409,7 @@ button:hover{
 	z-index:3;
 }
 h2 {
-	margin: 9% 20%;
+	margin: 9% 18%;
 	font-size: 36px;
 	line-height: 37px;
 }
@@ -452,7 +452,7 @@ h2 {
 	}
 	h1 { line-height: 1.4em; }
 	.container { width:100vw; }
-	h2{ margin: 11% 6%; font-size:30px; font-weight: 800; text-align: center; } 
+	h2{ margin: 11% 24%; font-size:30px; font-weight: 800; text-align: center; } 
   .landing-page-text {
 		display: flex;
 		flex-direction: column;
@@ -564,7 +564,7 @@ h2 {
 		padding-left: 0 10%;
 		align-items: center;
 		height: 50%;
-		width:84%;
+		width:85%;
 		background: #4E4E4E;
     color: #fff;
 }
@@ -616,7 +616,7 @@ h2 {
 		padding-left: 0 10%;
 		align-items: center;
 		height: 50%;
-		width:  88%;
+		width:  85%;
 		background: #4E4E4E;
     color: #fff;
 	}

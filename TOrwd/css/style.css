@@ -487,15 +487,14 @@ h2 {
 	.top-logo {text-align:center;
     margin: 9% 20%;
     font-size: 33px;
-    line-height: 37px;
-}
+		line-height: 37px;
+	}
 	/*.person-img{ margin-bottom: 24%;} */
 	.person {
 		width: 97%;
 		height: 27%;
 		padding:10% 4%;
 		margin-top: 53px;
-
 	}
 	#offer {
 		transform: scale(1.00);

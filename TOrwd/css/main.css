@@ -8,13 +8,16 @@ body{
 .row{ clear:both; }
 a:link , a:visited , a:hover, a:active { 
     text-decoration:none;
-    transition: 1.09s;
+    transition:1.09s;
+    transition: background-color 0.25s ease-out;
+    background-color:rgb(97, 94, 94); 
+;
     scroll-behavior: smooth;
 }
 a.pointer{ margin-right:30px; cursor:not-allowed; }
 .links{
     -webkit-transition-duration: 0.1s; 
-    transition-duration: 0.2s;
+    transition-duration: 0.5s;
     display:fixed;
     align-items:center;
 }
@@ -185,11 +188,16 @@ button:hover{
     margin:0 auto;
     background-color:  #405D78;
 }    
-h1{
+.top-logo{
     margin: 7% auto;
     font-size: 36px;
     font-weight: 800;
-    color: #F1F1F1;
+} 
+.toplogo{
+    margin: 7% auto;
+    font-size: 36px;
+    font-weight: 800;
+    color: #FFF;
 } 
 .line, .circle{
 display: flex;
@@ -197,20 +205,20 @@ position: relative;
 }
 .circle{
     position:relative;
-    width:20px;
-    height:20px;
+    width:24px;
+    height:24px;
     background-color:#E07A64;; 
     left: -82px;
-    top: -95px;
+    top: -102px;
     border-radius:50%;
 }
-.lin {
+.lin{
     display: flex;
     justify-content: space-between;
     width: 69%;
     flex-wrap: wrap;
     margin:7%;
-    padding-left: 13%;
+    padding-left:7%;
 }
 .line{
 display: flex;
@@ -222,7 +230,7 @@ width:27%;
 height:164px;
 margin:3%;
 padding: 5%;
-transition: 3.3s;
+transition:1.7s;
 box-sizing:border-box;
 border:3px solid gray;
 background:rgba(255, 255, 255, 0.849);
@@ -240,21 +248,24 @@ background:rgba(255, 255, 255, 0.849);
     grid-template-rows: 32% 32% 32%;
     grid-gap:1%;
 } 
-.footer{
-    display:flex;
-    align-items: center;
-    flex-direction: row;
+.footer {
+    
+    padding: 0px 5%;
+    flex-wrap:column;
     justify-content: space-between;
-    padding-left:0 7%;
-    align-items: center;
-    height: 50%;
-    padding:1% 9%;
-    background: #4E4E4E;
+    display:flex;
+    flex-wrap: wrap;
+    padding-left:10%;
+    align-items:center;
+    grid-area: footer;
+    flex-direction: row;
+    max-height:60px;
+    background:#4E4E4E; 
     color:#fff;
 }
 .rig{
-    justify-content: flex-end;
-    justify-content: space-between;
-    text-decoration:none;
-    color:none;
+    display:auto;
+    flex-direction:column-reverse;
+    width: -21px;
+    -webkit-flex-direction: row; 
 }

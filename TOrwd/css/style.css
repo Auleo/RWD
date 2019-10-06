@@ -508,6 +508,7 @@ h2 {
 		padding-left: 0 10%;
 		align-items: center;
 		height: 50%;
+		width: 100vw;
 		background: #4E4E4E;
     color: #fff;
 }
@@ -887,25 +888,22 @@ h1,.landing-page-text-h1 {font-size:29px;}
 	grid-gap:1%;
 	} 
 	.footer {    
-    padding: 0px 5%;
-		flex-wrap:column;
 		height: auto;
     justify-content: space-between;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    padding-left:10%;
-    align-items:center;
+    padding-left: 0%;
+    align-items: center;
     grid-area: footer;
     flex-direction: row;
-    max-height:60px;
+    height: 65px;
     background:#4E4E4E; 
     color:#fff;
 }
 .rig{
-    display:auto;
-    flex-direction:column-reverse;
-		width:21px;
-		height: auto;;
-    -webkit-flex-direction: row; 
+	display: auto;
+	flex-direction: row;
+	width: -45px;
 }
+
 }

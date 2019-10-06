@@ -343,7 +343,6 @@ button:hover{
 		padding-left: 0 10%;
 		align-items: center;
 		height: 50%;
-		width:85%;
 		background: #4E4E4E;
 		color: #fff;
 	}
@@ -431,7 +430,7 @@ h2 {
 		font-size: 18px;
 		color: white;
 		font: bold;
-		padding:1% 34%;
+		padding:2% 34%;
 		text-align: center;
 		justify-content: center;
 		transition:1.04s;
@@ -440,7 +439,7 @@ h2 {
 		background-color:white; 
 		color:black;
 		font: bold;
-		padding:1% 34%;
+		padding:2% 34%;
 		border: 3px sol id #FFFF;
 		font-size:18px;
 		text-align:center;
@@ -509,7 +508,6 @@ h2 {
 		padding-left: 0 10%;
 		align-items: center;
 		height: 50%;
-		width:85%;
 		background: #4E4E4E;
     color: #fff;
 }
@@ -575,7 +573,6 @@ h2 {
 		padding-left: 0 10%;
 		align-items: center;
 		height: 50%;
-		width:  85%;
 		background: #4E4E4E;
     color: #fff;
 	}
@@ -767,7 +764,7 @@ h1,.landing-page-text-h1 {font-size:29px;}
 .container { width: 100vw; }
 	.line{
 	width: 260px;
-	height: 200px;
+	height: 215px;
 	font-size: 22px;
 	margin: 12px 7%;
 	padding: 0% 2%;

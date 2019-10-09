@@ -31,7 +31,7 @@ a:hover{
     color:black;
     background-color:rgb(97, 94, 94);
     display:inline;    
-    padding-right:0 %;
+    padding-right:0 0%;
 }
 nav{
     display:flex;
@@ -90,6 +90,7 @@ h1 { line-height: 1.3em; font-weight: 800; }
     justify-content: space-between;
     font-weight:bold;  
     font-size:36px;
+    line-height: 147%;
     color: #FFF;
     width:auto;
 }

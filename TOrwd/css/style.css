@@ -5,7 +5,7 @@
 	}
 	.landing-page-text{
 		width: 63%;
-		height: 29%;
+		height: 39%;
 		}
 	}
 	a:link , a:visited , a:hover, a:active { 
@@ -256,7 +256,7 @@ button:hover{
 		justify-content: space-between;
 		align-items: flex-start;
 		font-style: weight; 
-		width:53%;
+		width:63%;
     height:37%;
 	}
 	button{
@@ -412,6 +412,10 @@ h2 {
 	-webkit-transform:scale(1.15);
 	transform:scale(1.15);
 	}  
+
+	.rig {
+    background: #4E4E4E;
+    padding: 0 0px;
 }
 @media (max-width:809px){
   .landing-page-text {
@@ -421,7 +425,7 @@ h2 {
 		align-items: flex-start;   
 		font-style: weight;
 		width:80%;
-    height: 29%;
+    height: 40%;
 }
 	}
 	button{
@@ -511,6 +515,10 @@ h2 {
 		width: 100vw;
 		background: #4E4E4E;
     color: #fff;
+}
+.rig {
+	background: #4E4E4E;
+	padding: 0 2px;
 }
 @media (mac-width:699px){	
 	.nav {
@@ -786,21 +794,19 @@ h1,.landing-page-text-h1 {font-size:29px;}
 	-webkit-transform:scale(1.15);
 	transform:scale(1.15);
 	} 
-.footer {    
-    padding: 0px 5%;
-    flex-wrap:column;
-    justify-content: space-between;
-    display:flex;
-    flex-wrap: wrap;
-    padding-left:10%;
-    align-items:center;
-    grid-area: footer;
-    flex-direction: row;
-    max-height:68px;
-    background:#4E4E4E; 
-    color:#fff;
+.footer { 
+	padding: 0px 0%;
+	flex-wrap:row;
+	text-align: center;
+	flex-direction: row;
+	background: #4E4E4E;
+	color: #fff;
+	text-decoration:none;
+	
 }
-	.rig{ text-decoration:none; padding: 0 10%; color:none; align-self:center; justify-content: space-between; }
+.rig {
+	background: #4E4E4E;
+	padding: 0 42px;
 }
 
 }
